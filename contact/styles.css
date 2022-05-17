@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+
+}
+.banner{
+    width: 100%;
+}
+form{
+    width: 30%;
+    background-color: #202020;
+    color: white;
+    margin: auto;
+    border-radius: 70px;
+    margin-top: 2%;
+    padding: 2%;
+}
+body{
+    background-color: #303030;
+    min-width: 1363px;
+}
+h1{
+    color: white;
+    margin-bottom: 3%;
+}
+input{
+    margin-bottom: 3%;
+}
+
+#M{
+    margin-right: -20%;
+    margin-top: 2.7%;
+    width: 50%;
+    height: 100px;
+    margin-bottom:5% ;
+}
+.left{
+    float: left;
+    text-align: left;
+}
+.send{
+    height: 1em;
+    width: 20%;
+    margin: auto;
+}

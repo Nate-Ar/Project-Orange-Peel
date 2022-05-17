@@ -1,0 +1,13 @@
+/* Color Theme Swatches in Hex */
+Blue/Grayish
+.stock-photo-dark-blue-sky-and-clouds-with-beautiful-golden-orange-sunset-time-with-light-sunrise-nature-1050790946-1-hex { color: #2E333F; }
+graylight
+.stock-photo-dark-blue-sky-and-clouds-with-beautiful-golden-orange-sunset-time-with-light-sunrise-nature-1050790946-2-hex { color: #626873; }
+Orange
+.stock-photo-dark-blue-sky-and-clouds-with-beautiful-golden-orange-sunset-time-with-light-sunrise-nature-1050790946-3-hex { color: #ff5f00; }
+dark red
+.stock-photo-dark-blue-sky-and-clouds-with-beautiful-golden-orange-sunset-time-with-light-sunrise-nature-1050790946-4-hex { color: #421C14; }
+black
+.stock-photo-dark-blue-sky-and-clouds-with-beautiful-golden-orange-sunset-time-with-light-sunrise-nature-1050790946-5-hex { color: #120D09; }
+
+Special Elite banner font

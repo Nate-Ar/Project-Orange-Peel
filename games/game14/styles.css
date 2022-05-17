@@ -1,0 +1,60 @@
+*{
+    touch-action: manipulation;
+}
+h1{
+    font-family: 'Orbitron', serif;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 60px;
+}
+body{
+    background-color: #262626;
+    text-align: center;
+}
+#can{
+    margin-top: 2%;
+    padding: 0;
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+#x{
+    width: 40px;
+    font-size: 20px;
+}
+#y{
+    width: 40px;
+    font-size: 20px;
+}
+hr{
+    width: 50%;
+    border-radius: 90%;
+
+}
+#radi{
+    width: 40px;
+    font-size: 20px;
+}
+#radipoly{
+    width: 40px;
+    font-size: 20px;
+}
+#sides{
+    width: 40px;
+    font-size: 20px;
+}
+h2{
+    color: white;
+}
+aside{
+    column-count: 3;
+}
+div{
+    margin-top: -20px;
+}
+h3{
+    color: white;
+}

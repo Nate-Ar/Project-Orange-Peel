@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/logo.png">
+    <title>Sandbox</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload='clearworld()';>
+    <h1> Play in The SandBox</h1>
+    <aside>
+        <div>
+        <h2>Square Size</h2>
+        <label for="x">Height: <input type="number" value="20" id="y"></label>
+        <label for="x">Width: <input type="number" value="20" id="x"></label>
+        </div>
+        <hr>
+        <h2>Circle Size</h2>
+        <label for="radi">Radius: <input type="number" value="20" id="radi"></label>
+        <hr>
+        <h2>Polygon Size</h2>
+        <label for="sides">Sides: <input type="number" value="5" id="sides"></label>
+        <label for="radipoly">Radius: <input type="number" value="20" id="radipoly"></label>
+        <hr>
+    </aside>
+    <button onclick="square = true,poly = false,cic = false">Spawn Square</button>
+    <button onclick="square = false,poly = false,cic = true">Spawn Circle</button>
+    <button onclick="square = false,poly = true,cic = false">Spawn Polygon</button>
+    <button onclick="clearworld()">Clear</button>
+    <article onclick="sizes(),mousePressed()" id="can"></article>
+    <h3>Created by Orange Peel Development</h3>
+</body>
+<script src="matter.js"></script>
+<script src="p5.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="/logo.png">
+        <title>Snake Game</title>
+        <style>
+            canvas{
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <img src="sanbke.png">
+    <div>
+        Links:
+        <a href="https://github.com/CodeExplainedRepo/Snake-JavaScript">Github</a><br>
+    </div>
+    <div class="redo">
+        <button onclick="redo()">Retry</button><br><br>
+       <text> Auto Snake Made By Orange Peel Development</text><br><hr>
+        <button onclick="startering()">Start Auto Snake</button><br>
+        <text>The Auto Snake is still under development</text>
+    </div>
+    <canvas id="snake" width="608" height="640"></canvas>
+    <script src="snake.js"></script>
+    <script>function redo() {
+        location.reload();
+    }</script>
+</html>

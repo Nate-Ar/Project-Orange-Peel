@@ -1,0 +1,42 @@
+body{
+    background-color: #262626;
+    min-width: 1236px;
+}
+*{
+
+    margin: 0;
+}
+img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+button{
+    font-size: xx-large;
+    border-radius: 70px;
+    margin-bottom: 5%;
+    border: none;
+    background-color: #ff5f00;
+    font-weight: bold;
+}
+div{
+    color: white;
+}
+a{
+    color: white;
+}
+.redo{
+    right: 5%;
+    position: relative;
+    text-align: center;
+    float: right;
+}
+text{
+    font-size: 16px;
+}
+#snake{
+    right: -7.6%;
+    position: relative;
+}
+hr{
+    margin-bottom: 5%;
+}

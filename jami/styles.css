@@ -1,0 +1,10 @@
+body{
+    background-color: darkgray;
+}
+button{
+    padding: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 70px 70px;
+    font-size: 300%;
+}

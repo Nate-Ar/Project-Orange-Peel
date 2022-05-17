@@ -1,0 +1,30 @@
+img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+aside{
+    position: relative;
+    bottom: 85%;
+    left: 1%;
+    background-color: #7e6dff;
+    width: 10%;
+    padding: 1%;
+    border-radius: 5px;
+    border: #202020 solid 2px;
+}
+a{
+    text-decoration: none;
+    color: #202020;
+    padding-right: 2%;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    margin-top: 1%;
+    background-color: #7e6dff;
+    padding: 1%;
+    border-radius: 5px;
+    width: 15%;
+    border: #202020 solid 2px;
+}

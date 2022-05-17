@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+
+}
+header{
+    /*margin-left: 30px;*/
+    background-color: #ff5f00;
+    font-family: 'Special Elite', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
+}
+#logo{
+    position: relative;
+    left: 8rem;
+    width: 20%;
+    padding: 0;
+    flex-basis: auto;
+
+}
+.button{
+    margin-left: 20%;
+    font-size: 20px;
+    flex-basis: auto;
+    position: relative;
+    left: 1.75rem;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    text-decoration: underline;
+}
+h1{
+    flex-basis: auto;
+    margin-left: 16rem;
+    font-size: 50px;
+}
+body{
+    background-color: #262626;
+    min-width: 1000px;
+}
+.attention-grabber{
+    padding-top: .25%;
+    margin-top: 2%;
+    width: 72.8%;
+    background-color: #303030;
+}
+.top{
+    width: 33%;
+}
+#games{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width:72.8%;
+    background-color: #303030;
+}
+.gamecontatiner{
+    margin-top: 1%;
+    margin-left: 2.5%;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    background-color: #262626;
+    width: 30%;
+    text-align: left;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1%;
+}
+h2{
+    border-radius: 10px 10px 0 0;
+    padding:1%;
+    text-align: center;
+    color: #303030;
+    background: #ff5f00;
+}
+h4{
+    line-height: 22px;
+    color: lightgray;
+    margin-left: 1%;
+}
+.gam{
+    width: 200px;
+    margin-right: 1%;
+}
+#play{
+    position: relative;
+    top: 1rem;
+    padding: 2%;
+    background-color: darkorange;
+    background-image: -moz-linear-gradient(darkorange,#ff5f00);
+    color: white;
+    text-decoration: none;
+}
+#play:hover{
+    background-image: -moz-linear-gradient(#ff5f00,darkorange);
+}
+hr{
+    border: none;
+    color: darkorange;
+    background: darkorange;
+    height: .5rem;
+}
+
+.gerburt{
+    width: 5%;
+}
+#hinthint{
+    font-size: 3px;
+    font-family: 'Dancing Script', serif;
+}
+@media only screen and (max-width: 1450px) {
+    .gamecontatiner{
+        width: 40%;
+        margin-left: 7%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    h4{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .gam{
+        width:100px;
+    }
+}
+@media only screen and (max-width: 1135px) {
+    .top{
+        width: 30%;
+    }
+    #logo{
+        left: 6rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .button{
+        margin-left: 10%;
+    }
+    h1{
+        margin-left: 10rem;
+    }
+    h4{
+        font-size: 70%;
+    }
+    #play{
+        top:-2px;
+    }
+}
